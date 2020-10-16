@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ObjectTracker'
-  s.version          = '1.0.0'
+  s.version          = '0.0.1'
   s.summary          = 'Detecting an object deallocing which proivdes a closure callback.'
 
   s.homepage         = 'https://github.com/janlionly/ObjectTracker'

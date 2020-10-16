@@ -22,10 +22,10 @@ github "janlionly/ObjectTracker"
 ```
 
 ### Swift Package Manager
-- iOS: Open Xcode, File->Swift Packages, search input **https://github.com/janlionly/ObjectTracker.git**, and then select Version Up to Next Major **1.0.0** < .
+- iOS: Open Xcode, File->Swift Packages, search input **https://github.com/janlionly/ObjectTracker.git**, and then select Version Up to Next Major **0.0.1** < .
 - Or add dependencies in your `Package.swift`:
 ```swift
-.package(url: "https://github.com/janlionly/ObjectTracker.git", .upToNextMajor(from: "1.0.0")),
+.package(url: "https://github.com/janlionly/ObjectTracker.git", .upToNextMajor(from: "0.0.1")),
 ```
 
 ## Usage
