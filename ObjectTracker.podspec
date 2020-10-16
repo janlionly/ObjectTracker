@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
   s.source_files = 'Sources/ObjectTracker/*'
-  s.frameworks = 'Foundation', 'runtime'
+  s.frameworks = 'Foundation'
   s.swift_versions = ['4.2', '5.0', '5.1', '5.2']
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 end
